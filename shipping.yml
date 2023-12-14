@@ -5,6 +5,6 @@
     component: Shipping
     schema: true
   tasks:
-    - name: NodeJs setup
+    - name: Maven setup
       ansible.builtin.import_tasks: java.yml
 

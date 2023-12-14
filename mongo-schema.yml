@@ -1,5 +1,4 @@
-
-- name: Copy MangoDB Yum Repo File
+- name: Copy MongoDB Yum repo file
   ansible.builtin.copy:
     src: mongo.repo
     dest: /etc/yum.repos.d/mongo.repo
